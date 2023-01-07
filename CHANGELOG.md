@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/patoi/tw-zen-plugin/compare/v1.0.1...v1.0.2) (2023-01-07)
+
+
+### Bug Fixes
+
+* refactoring package release structure ([6d84fad](https://github.com/patoi/tw-zen-plugin/commit/6d84fadc40ed0bfaf3f05c727f6f652b3f7e7e33))
+* release process ([ee4cfb4](https://github.com/patoi/tw-zen-plugin/commit/ee4cfb4bedeb81124987f2080c4770d50e070035))
+
 ## [1.0.1](https://github.com/patoi/tw-zen-plugin/compare/v1.0.0...v1.0.1) (2023-01-07)
 
 
