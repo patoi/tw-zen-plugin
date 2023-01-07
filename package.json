@@ -1,8 +1,8 @@
 {
 	"name": "@patoi/tw-zen-plugin",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
-	"main": "dist/plugin.cjs",
+	"main": "plugin.cjs",
 	"license": "MIT",
 	"description": "TailwindCSS Zen intersection animation plugin",
 	"keywords": [
