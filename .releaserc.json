@@ -1,5 +1,6 @@
 {
 	"debug": true,
+	"repositoryUrl": "git@github.com:patoi/tw-zen-plugin.git",
 	"branches": [{ "name": "main" }],
 	"plugins": [
 		"@semantic-release/commit-analyzer",
