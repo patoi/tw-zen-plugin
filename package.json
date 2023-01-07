@@ -44,6 +44,11 @@
 	"bugs": {
 		"url": "https://github.com/patoi/tw-zen-plugin/issues"
 	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public",
+		"tag": "latest"
+	},
 	"scripts": {
 		"prepare": "husky install",
 		"build": "node build.js",
@@ -52,7 +57,7 @@
 		"format:check": "prettier --plugin-search-dir=. --check .",
 		"test": "pnpm lint && pnpm format:check",
 		"cm": "cz",
-		"release": "pnpm lint && pnpm format:check && semantic-release"
+		"release": "pnpm lint && pnpm format:check && pnpm build && HUSKY=0 semantic-release"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
