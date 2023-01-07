@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/patoi/tw-zen-plugin/compare/v1.0.0...v1.0.1) (2023-01-07)
+
+
+### Bug Fixes
+
+* publish to npmjs ([87396b5](https://github.com/patoi/tw-zen-plugin/commit/87396b5903f664008fdb6f7bf62328dce6771acf))
+
 # 1.0.0 (2023-01-07)
 
 
