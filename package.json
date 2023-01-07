@@ -1,6 +1,6 @@
 {
 	"name": "@patoi/tw-zen-plugin",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"type": "module",
 	"main": "dist/plugin.cjs",
 	"license": "MIT",
@@ -23,7 +23,8 @@
 		"init.d.ts",
 		"init.js",
 		"init.min.js",
-		"plugin.cjs"
+		"plugin.cjs",
+		"CHANGELOG.md"
 	],
 	"packageManager": "pnpm@7.12.2",
 	"engines": {
