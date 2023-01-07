@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/patoi/tw-zen-plugin/compare/v1.0.3...v1.0.4) (2023-01-07)
+
+
+### Bug Fixes
+
+* main property ([b89cc56](https://github.com/patoi/tw-zen-plugin/commit/b89cc5612a976d829d0e0c26e79f24f4fc05edd6))
+
 ## [1.0.3](https://github.com/patoi/tw-zen-plugin/compare/v1.0.2...v1.0.3) (2023-01-07)
 
 
