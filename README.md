@@ -17,7 +17,7 @@ Check out the <@TODO URL is here>
 Before using it, you need to add to `tailwind.config.js` the plugin and the safelist:
 
 ```
-plugins: [require('tw-zen')],
+plugins: [require('tw-zen-plugin')],
 safelist: ['zen--suspend', 'zen--off', 'zen--reduced']
 ```
 
