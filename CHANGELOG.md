@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/patoi/tw-zen-plugin/compare/v1.0.2...v1.0.3) (2023-01-07)
+
+
+### Bug Fixes
+
+* add CHANGELOG to npm package ([80cf66f](https://github.com/patoi/tw-zen-plugin/commit/80cf66fc09ebe0f124bdfa1f6c736816eeff5b9c))
+* description ([4b733f8](https://github.com/patoi/tw-zen-plugin/commit/4b733f83fa6a5cacdc812fcbebd6886d75e3ccf1))
+
 ## [1.0.2](https://github.com/patoi/tw-zen-plugin/compare/v1.0.1...v1.0.2) (2023-01-07)
 
 
