@@ -17,5 +17,6 @@ module.exports = {
 	},
 	rules: {
 		'no-shadow': ['error']
-	}
+	},
+	ignorePatterns: ['**/*.min.js']
 }

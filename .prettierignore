@@ -1,6 +1,7 @@
 /public
 pnpm-lock.yaml
 *.md
+*.min.js
 
 # from .gitignore
 

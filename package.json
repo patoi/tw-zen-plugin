@@ -20,7 +20,10 @@
 	],
 	"unpkg": "init.min.js",
 	"files": [
-		"/dist"
+		"init.d.ts",
+		"init.js",
+		"init.min.js",
+		"plugin.cjs"
 	],
 	"packageManager": "pnpm@7.12.2",
 	"engines": {
