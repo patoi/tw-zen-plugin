@@ -1,0 +1,74 @@
+{
+	"name": "@patoi/tw-zen",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"main": "dist/plugin.cjs",
+	"license": "MIT",
+	"description": "TailwindCSS Zen animation plugin",
+	"keywords": [
+		"Tailwind",
+		"TailwindCSS",
+		"tw-zen",
+		"tw",
+		"plugin",
+		"animation",
+		"zen",
+		"intersection",
+		"intersect",
+		"intersectionObserver",
+		"observer"
+	],
+	"unpkg": "dist/init.min.js",
+	"files": [
+		"/dist"
+	],
+	"packageManager": "pnpm@7.12.2",
+	"engines": {
+		"node": ">=18.11.0",
+		"pnpm": ">=7.12.2"
+	},
+	"author": "István Pató https://twitter.com/@patoistvan",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"lint-staged": {
+		"*.{cjs,js,css,md,yml}": "prettier --write && eslint --cache --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/patoi/tw-zen"
+	},
+	"bugs": {
+		"url": "https://github.com/patoi/tw-zen/issues"
+	},
+	"scripts": {
+		"prepare": "husky install",
+		"build": "node build.js",
+		"lint": "eslint --ignore-path .gitignore .",
+		"format": "prettier --plugin-search-dir=. --write .",
+		"format:check": "prettier --plugin-search-dir=. --check .",
+		"test": "pnpm lint && pnpm format:check",
+		"cm": "cz"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"autoprefixer": "^10.4.13",
+		"commitizen": "^4.2.6",
+		"cz-conventional-changelog": "^3.3.0",
+		"esbuild": "^0.16.13",
+		"eslint": "^8.31.0",
+		"eslint-config-prettier": "^8.6.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.1.0",
+		"postcss": "^8.4.20",
+		"prettier": "^2.8.1",
+		"tailwindcss": "^3.2.4"
+	},
+	"peerDependencies": {
+		"tailwindcss": ">=3.0.0"
+	}
+}
