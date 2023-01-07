@@ -4,7 +4,7 @@
 	"type": "module",
 	"main": "dist/plugin.cjs",
 	"license": "MIT",
-	"description": "TailwindCSS Zen animation plugin",
+	"description": "TailwindCSS Zen intersection animation plugin",
 	"keywords": [
 		"Tailwind",
 		"TailwindCSS",
