@@ -1,5 +1,6 @@
 /public
 pnpm-lock.yaml
+*.md
 
 # from .gitignore
 
