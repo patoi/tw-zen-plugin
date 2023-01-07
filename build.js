@@ -1,23 +1,8 @@
-import fs from 'node:fs/promises'
 import esbuild from 'esbuild'
-
-try {
-	await fs.access('./dist')
-} catch (error) {
-	await fs.mkdir('./dist', { mode: '0744' })
-}
-
-await fs.copyFile('./init.d.ts', './dist/init.d.ts')
-await fs.copyFile('./init.js', './dist/init.js')
-await fs.copyFile('./plugin.cjs', './dist/plugin.cjs')
-// default files
-await fs.copyFile('./package.json', './dist/package.json')
-await fs.copyFile('./LICENSE', './dist/LICENSE')
-await fs.copyFile('./README.md', './dist/README.md')
 
 build({
 	entryPoints: ['init.cdn.js'],
-	outfile: 'dist/init.min.js',
+	outfile: 'init.min.js',
 	platform: 'browser',
 	define: { CDN: 'true' }
 })
