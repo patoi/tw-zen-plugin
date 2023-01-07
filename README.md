@@ -23,6 +23,11 @@ safelist: ['zen--suspend', 'zen--off', 'zen--reduced']
 
 ## Features
 
+Add classes to block-level elements.
+When block-level element intersected with view, animation has triggered.
+
+**Note** that padding increases the size of the block-level element, so the content may not be visible on the screen yet, but the animation will begin.
+
 - `zen-fade` fade-in content
 - `zen-pop-up` content moves up with fade-in
 - `zen-from-left` content moves from left to right with fade-in
@@ -33,10 +38,9 @@ For example:
 
 ```html
 <!-- pure HTML, and Svelte -->
-<a class="zen-once zen-pop-up">
-	<!-- react -->
-	<image className="zen-pause zen-spin-forever"></image
-></a>
+<div class="zen-once zen-pop-up">...</div>
+<!-- react -->
+<Image className="zen-pause zen-spin-forever" />
 ```
 
 All animations will repeat constantly unless you add `zen-once`, for example: `zen-once zen-pop-up` The use of `zen-once` is recommended.
@@ -49,7 +53,7 @@ Breakpoint handling:
 - Turn off animation with `lg:zen--off`, it will not be animated above `lg` size.
 
 ```html
-<a class="zen-once zen-pop-up max-lg:zen--off"></a>
+<div class="zen-once zen-pop-up max-lg:zen--off">...</div>
 ```
 
 ## Starting intersection plugin
