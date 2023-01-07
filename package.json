@@ -57,7 +57,7 @@
 		"format:check": "prettier --plugin-search-dir=. --check .",
 		"test": "pnpm lint && pnpm format:check",
 		"cm": "cz",
-		"release": "pnpm lint && pnpm format:check && pnpm build && HUSKY=0 semantic-release"
+		"release": "pnpm lint && pnpm format:check && pnpm build && HUSKY=0 semantic-release --no-ci"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
