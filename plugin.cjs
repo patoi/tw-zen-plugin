@@ -6,7 +6,7 @@ module.exports = plugin(({ addBase }) => {
 			'@apply delay-300 duration-[3000ms] opacity-0 transition-all transform-gpu': {}
 		},
 		'.zen-pop-up': {
-			'@apply delay-500 duration-[1800ms] origin-bottom opacity-0 translate-y-8 transition-all transform-gpu':
+			'@apply delay-500 duration-[1800ms] origin-bottom opacity-0 translate-y-16 transition-all transform-gpu':
 				{}
 		},
 		'.zen-from-left': {
