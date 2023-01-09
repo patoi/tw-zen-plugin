@@ -50,12 +50,13 @@ For example:
 ```html
 <script src="https://unpkg.com/@patoi/tw-zen-plugin@1.1.1/init.min.js" />
 ```
+Example project: https://github.com/patoi/tw-zen-example-html
 
 Check https://www.npmjs.com/package/@patoi/tw-zen-plugin page for latest version number.
 
 All animations will repeat constantly unless you add `zen-once`, for example: `zen-once zen-pop-up` The use of `zen-once` is recommended.
 
-The `zen-spin-forever` rotates the content forever, and you need always add to `zen-pause`, it suspends the rotation (saving energy).
+The `zen-spin-forever` rotates the content forever, and should always be used with `zen-pause`, it suspends the rotation (saving energy).
 
 **Breakpoint handling (except `zen-spin-forever`):**
 
