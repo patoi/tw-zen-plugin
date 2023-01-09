@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/patoi/tw-zen-plugin/compare/v1.1.0...v1.1.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* animation pop-up y moving ([0a31602](https://github.com/patoi/tw-zen-plugin/commit/0a3160225603b5c346b76e173a8e928f50516aae))
+* version number ([2a07b80](https://github.com/patoi/tw-zen-plugin/commit/2a07b80bcd0962b7616d39d5c2a42c8632852f46))
+
 # [1.1.0](https://github.com/patoi/tw-zen-plugin/compare/v1.0.4...v1.1.0) (2023-01-09)
 
 
