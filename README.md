@@ -47,13 +47,39 @@ All animations will repeat constantly unless you add `zen-once`, for example: `z
 
 The `zen-spin-forever` rotates the content forever, even when it is not on the screen. If you want to suspend the rotation (saving energy), then add `zen-pause` class, `zen-pause zen-spin-forever`
 
-Breakpoint handling:
+**Breakpoint handling (except `zen-spin-forever`):**
 
 - Turn off animation with `max-lg:zen--off`, it will not be animated below `lg` size.
 - Turn off animation with `lg:zen--off`, it will not be animated above `lg` size.
 
+In case of `zen-spin-forever` (or `zen-custom-animation`, see later) just write `max-lg:zen-spin-forever` or `lg:zen-spin-forever`
+
 ```html
 <div class="zen-once zen-pop-up max-lg:zen--off">...</div>
+```
+
+**Tailwind way to customize:**
+
+```html
+  <!-- delaying animation with 5s -->
+  <div class="zen-fade zen-once delay-[5000ms]">...</div>
+  <!-- animation's duration is 2s -->
+  <div class="zen-fade zen-once duration-[2000ms]">...</div>
+```
+
+**To extend animations,** start your style with `zen-` in your base css file:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* fast rotating animation */
+  .zen-custom-animation {
+    @apply animate-[spin_2s_linear_infinite]
+  }
+}
 ```
 
 ## Starting intersection plugin
