@@ -10,7 +10,7 @@ It can be used with frameworks - SvelteKit, Next.js, etc. - and with simple HTML
 - There is no third-party dependency.
 - Free and Open Source.
 
-Check out the <@TODO URL is here>
+Check out the https://tw-zen-site.vercel.app/ page.
 
 ## Configuration
 
