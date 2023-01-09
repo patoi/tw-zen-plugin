@@ -34,7 +34,7 @@ When block-level element intersected with view, animation has triggered.
 - `zen-pop-up` content moves up with fade-in
 - `zen-from-left` content moves from left to right with fade-in
 - `zen-from-right` content moves from right to left with fade-in
-- `zen-spin-forever` constantly rotating content
+- `zen-pause zen-spin-forever` constantly rotating content
 
 For example:
 
@@ -55,7 +55,7 @@ Check https://www.npmjs.com/package/@patoi/tw-zen-plugin page for latest version
 
 All animations will repeat constantly unless you add `zen-once`, for example: `zen-once zen-pop-up` The use of `zen-once` is recommended.
 
-The `zen-spin-forever` rotates the content forever, even when it is not on the screen. If you want to suspend the rotation (saving energy), then add `zen-pause` class, `zen-pause zen-spin-forever`
+The `zen-spin-forever` rotates the content forever, and you need always add to `zen-pause`, it suspends the rotation (saving energy).
 
 **Breakpoint handling (except `zen-spin-forever`):**
 
