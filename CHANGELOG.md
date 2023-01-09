@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/patoi/tw-zen-plugin/compare/v1.0.4...v1.1.0) (2023-01-09)
+
+
+### Features
+
+* fine-tuning animation ([e646d33](https://github.com/patoi/tw-zen-plugin/commit/e646d33f3c22b4ac5eb0546af4b68319d8ee4571))
+
 ## [1.0.4](https://github.com/patoi/tw-zen-plugin/compare/v1.0.3...v1.0.4) (2023-01-07)
 
 
