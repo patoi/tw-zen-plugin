@@ -12,12 +12,14 @@ It can be used with frameworks - SvelteKit, Next.js, etc. - and with simple HTML
 
 Check out the https://tw-zen-site.vercel.app/ page.
 
+`pnpm add -D @patoi/tw-zen-plugin` or `npm install -D  @patoi/tw-zen-plugin`
+
 ## Configuration
 
 Before using it, you need to add to `tailwind.config.js` the plugin and the safelist:
 
 ```
-plugins: [require('tw-zen-plugin')],
+plugins: [require('@patoi/tw-zen-plugin')],
 safelist: ['zen--suspend', 'zen--off', 'zen--reduced']
 ```
 
