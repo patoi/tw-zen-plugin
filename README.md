@@ -39,11 +39,19 @@ When block-level element intersected with view, animation has triggered.
 For example:
 
 ```html
-<!-- pure HTML, and Svelte -->
+<!-- no-framework and Svelte -->
 <div class="zen-once zen-pop-up">...</div>
 <!-- react -->
 <Image className="zen-pause zen-spin-forever" />
 ```
+
+**If you are not using a framework, just HTML/JS,** then put the script at the end of the HTML page before the html element:
+
+```html
+<script src="https://unpkg.com/@patoi/tw-zen-plugin@1.1.1/init.min.js" />
+```
+
+Check https://www.npmjs.com/package/@patoi/tw-zen-plugin page for latest version number.
 
 All animations will repeat constantly unless you add `zen-once`, for example: `zen-once zen-pop-up` The use of `zen-once` is recommended.
 
